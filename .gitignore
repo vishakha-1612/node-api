@@ -1,0 +1,26 @@
+# Ignore system and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore build directories
+target/
+bin/
+build/
+
+# Ignore dependency directories
+node_modules/
+bower_components/
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore sensitive or environment-specific information
+.env

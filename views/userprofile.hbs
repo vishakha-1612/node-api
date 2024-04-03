@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>webphplearn.com</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <nav>
+        <h4>Node Mysql</h4>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/profile">profile</a></li>
+            <li><a href="/auth/logout">logout</a></li>  
+        </ul>
+    </nav>
+    <div class="container mt-4"> 
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                <div class="avatar-ctn">
+                        <img src="/avtar.png" class="avatar" alt="User profile">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{user.name}}</h5>
+                    <p class="card-text">{{user.email}}</p>
+                </div>
+                
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="card text-center">
+                   <div class="card-header"> {{user.name}}</div>
+                </div>    
+            </div>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>

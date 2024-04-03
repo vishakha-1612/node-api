@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+}
+nav{
+    background-color: blueviolet;
+    color:white;
+    padding:30px 60px;
+    display:flex;
+    justify-content: space-between;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+nav ul li a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.avatar-ctn{
+    background-color: yellow;
+    text-align: center;
+}
+.avatar{
+    width: 15%;
+    border-bottom: 1px solid rgb(0,0,0,0,125);
+}

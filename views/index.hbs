@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>webphplearn.com</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <nav>
+        <h4>Node Mysql</h4>
+        <ul>
+            <li><a href="/">Home</a></li>
+            {{#if user}}
+              <li><a href="/profile">Profile</a></li>
+              <li><a href="/auth/logout">Logout</a></li>  
+            {{else}}
+              <li><a href="/login">Login</a></li>
+              <li><a href="/register">Register</a></li> 
+            {{/if}}
+        </ul>
+    </nav>
+    <div class="container mt-4">
+        <div class="jumbotron">
+            <div>
+                <h1>Login project</h1>
+                <p>Bootstrap is the most popular HTML, CSS...</p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
