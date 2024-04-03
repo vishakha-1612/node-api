@@ -3,11 +3,11 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const { promisify} = require('util');
 const db = mysql.createConnection({
-    host:process.env.DATABASE_HOST,
-    user:process.env.DATABASE_USER,
-    password:process.env.DATABASE_PASSWORD,
-    database:process.env.DATABASE
-})
+    host: "sql6.freemysqlhosting.net",
+    user: "sql6696268",
+    password: "jLvUCYLY6p",
+    database: "sql6696268"
+});
 exports.register = (req,res) => {
     let  message;
     const {name,email,password} = req.body;
