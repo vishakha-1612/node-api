@@ -8,11 +8,11 @@ const cookiePaser = require('cookie-parser');
 dotenv.config({path:'./.env'});
 const app = express();
 const db = mysql.createConnection({
-    host:process.env.DATABASE_HOST,
-    user:process.env.DATABASE_USER,
-    password:process.env.DATABASE_PASSWORD,
-    database:process.env.DATABASE
-})
+    host: "sql6.freemysqlhosting.net",
+    user: "sql6696268",
+    password: "jLvUCYLY6p",
+    database: "sql6696268"
+});
 const publicDirectory = path.join(__dirname,'./public');
 app.use(express.static(publicDirectory));
 app.use(express.urlencoded({extended:false}));
